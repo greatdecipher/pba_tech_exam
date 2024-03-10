@@ -10,14 +10,14 @@ Follow these steps to set up and run the scraper:
    - Clone this repository to your local machine.
 
      ```bash
-     git clone https://github.com/your-username/pba_scraper.git
+     git clone https://github.com/greatdecipher/pba_tech_exam.git
      ```
 
 2. **Create Virtual Environment:**
    - Navigate to the 'main' folder and create a virtual environment.
 
      ```bash
-     cd pba_scraper/main
+     cd pba_tech_exam
      python -m venv venv
      ```
 
@@ -25,6 +25,7 @@ Follow these steps to set up and run the scraper:
    - Install the required packages using pip.
 
      ```bash
+     cd main/
      pip install -r requirements.txt
      ```
 
@@ -42,17 +43,27 @@ Follow these steps to set up and run the scraper:
      python -m scraper
      ```
 
-## Screenshots
-1. Insert Photo 1 Description Here
-   ![Photo 1](path/to/photo1.png)
+## Logging
+Logging is implemented on running the scraper, please see bash to trace scraper running in headless mode.
 
-2. Insert Photo 2 Description Here
-   ![Photo 2](path/to/photo2.png)
+## Additional Concepts
+**Headless mode** - scraper is running in the background with a visible browser.
+**Playwright-Stealth** - Important module to counter scraper blockers/catpchas.
 
-3. Insert Photo 3 Description Here
-   ![Photo 3](path/to/photo3.png)
+## Screenshots/Results
+
+1. Scraping Teams data
+   ![Teams](main/actual_screenshots/scraping_logs.png)
+
+2. Total Players scraping in Bulk
+   ![Total players](main/actual_screenshots/206players.png)
+
+3. Result of Teams
+   ![Teams data](main/actual_screenshots/result_team.png)
+
+4. Result of Players
+   ![Players data](main/actual_screenshots/result_player.png)
 
 ## Notes
-- Make sure to customize the installation steps and screenshots based on your actual project structure and images. Replace placeholder paths and descriptions with accurate information.
 - Ensure you have Python 3.12 installed on your machine before proceeding with the installation steps.
 
