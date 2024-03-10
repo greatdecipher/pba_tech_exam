@@ -23,6 +23,7 @@ class PBAScraper():
             self.page = await browser.new_page()
             await stealth_async(self.page)
             await self.navigate_to_site(self.pba_teams_homeurl)
+            await browser.close()
 
 
 
