@@ -1,7 +1,7 @@
 # PBA Scraper Using Playwright
 
 ## Description
-This project is a technical exam for web scraping using Python 3.12. The developer implemented the Asynchronous Playwright package to scrape data for the PBA Teams and Players pages.
+This project serves as a technical examination of web scraping using Python 3.12. The developer implemented the Asynchronous Playwright package to extract data from the PBA Teams and Players pages.
 
 ## Installation Steps
 Follow these steps to set up and run the scraper:
@@ -47,8 +47,8 @@ Follow these steps to set up and run the scraper:
 Logging is implemented on running the scraper, please see bash to trace scraper running in headless mode.
 
 ## Additional Concepts
-**Headless mode** - scraper is running in the background with a visible browser.
-**Playwright-Stealth** - Important module to counter scraper blockers/catpchas.
+1. **Headless mode** - scraper is running in the background with a visible browser.
+2. **Playwright-Stealth** - Important module to counter scraper blockers/catpchas.
 
 ## Screenshots/Results
 
