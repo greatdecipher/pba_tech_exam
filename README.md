@@ -3,6 +3,9 @@
 ## Description
 This project serves as a technical examination of web scraping using Python 3.12. The developer implemented the Asynchronous Playwright package to extract data from the PBA Teams and Players pages.
 
+Scraping these pages:
+1. **Teams:** https://www.pba.ph/teams
+2. **Players:** https://www.pba.ph/players
 ## Installation Steps
 Follow these steps to set up and run the scraper:
 
