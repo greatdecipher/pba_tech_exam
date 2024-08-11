@@ -60,7 +60,7 @@ class PBAScraper():
                 logging.info("Successfully loaded")
                 time.sleep(2)
                 team_selector = f'//*[contains(@id, "innity_proxy_parent_")]/div[6]/div[3]/div/div[{div_number}]'
-                team_locator = await self.page.wait_for_selector(team_selector, timeout=40000)
+                team_locator = await self.page.wait_for_selector(team_selector, timeout=12000)
                 logging.info("Locator for a team seen")
                 await team_locator.click()
 
@@ -122,7 +122,7 @@ class PBAScraper():
             return team_name, player_name, number, position, player_url, mugshot_src
 
         except (TimeoutError, Exception) as e:
-            logging.info(f"Selector not found for iteration {div_number}. Error: {e}")
+            logging.info(f"No player in this iteration {div_number}. Error: {e}")
             return None
                 
 
